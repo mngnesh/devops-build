@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  app:
+    image: devops-build
+    container_name: devops-container
+    ports:
+      - "80:80"
